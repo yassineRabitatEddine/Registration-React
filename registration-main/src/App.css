@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  display: grid;
+  min-height: 110vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(233, 232, 232);
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    background-color: rgb(250, 245, 245);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px solid rgb(173, 166, 166);
+  border-radius: 10px;
+}
+h2{
+  margin-bottom: 1.5em;
+}
+
+select {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid rgb(173, 166, 166);
+  border-radius: 10px;
+  
+}
+option{
+  color-scheme: white;
+}
+
+button {
+  border: none;
+  background-color: rgb(11, 92, 11);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.link-btn {
+  background: none;
+  color: blue;
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+}
